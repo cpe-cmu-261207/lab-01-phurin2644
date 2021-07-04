@@ -6,12 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
   <style>
+    .cover-1{
+      background-size:contain;
+    }
     body{
       background: #FFE194;
     }
     .bg-mint{
       background: #E8F6EF;
+    }
+    .bg-mint-100{
+      background: #B8DFD8;
+    }
+    .bg-ppg{
+      background: #4C4C6D;
+    }
+    *{
+      font-family: 'Otomanopee One', sans-serif;
+      list-style: none;
     }
   </style>
 </head>
@@ -19,13 +36,38 @@
   <!--container-->
   <div class="max-w-screen-xl bg-mint mx-auto my-10 rounded-xl ">
     <!--taskbar-->
-    <div class="flex">
-      <h1>My Resume1</h1>
+    <div class="flex py-4 bg-ppg px-4 rounded-t-xl">
+      <h1>My Resume</h1>
       <img>
     </div>
     <!--content-->
-    <div>
+    <div class="flex space-x-10 rounded-b-xl">
+      <!--menu-->
+      <div class="bg-mint-100 w-40 px-4 space-y-4 py-4 rounded-bl-xl">
+        <li><a href="#"><i class="fa-solid fa-house-blank"></i>Home</a></li>
+        <li><a href="#">Expirience</a></li>
+        <li><a href="#">Contact</a></li>
+      </div>
+      <!--form-->
+      <div class="space-y-6">
+        <!--card1-->
+        <div class="bg-gray-100 max-w-2xl mx-auto rounded-xl h-128px overflow-hidden ring-1 ring-gray-300 my-6">
+          <div class="flex">
+            <div class="bg-red-500 pb-2/3">
+              <img src="me.png" class="h-full w-60 object-contain object-cover rounded-l-xl">
+            </div>
+            <div class="p-4">
+              <p>phurin parsit</p>
+              <p>
+               lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque necessitatibus consequuntur rem expedita, optio quis mollitia quod fuga fugit perspiciatis.</p>
+            </div>
+          </div>
+        </div>
 
+        <div>
+
+        </div>
+      </div>
     </div>
   </div>
   
