@@ -30,31 +30,35 @@
       font-family: 'Otomanopee One', sans-serif;
       list-style: none;
     }
+   
   </style>
 </head>
 <body>
   <!--container-->
-  <div class="max-w-screen-xl bg-mint mx-auto my-10 rounded-xl ">
+  <div class="max-w-screen-xl bg-mint mx-auto my-10 rounded-xl shadow-md">
     <!--taskbar-->
-    <div class="flex py-4 bg-ppg px-4 rounded-t-xl">
-      <h1>My Resume</h1>
+    <div class="flex py-4 bg-ppg px-4 rounded-t-xl shadow-md">
+      <div class="flex space-x-2 ml-4">
+        <h6 class="text-4xl text-red-500">MY</h6>
+        <h6 class="text-2xl text-gray-100">RESUME</h6>
+      </div>
       <img>
     </div>
     <!--content-->
     <div class="flex space-x-10 rounded-b-xl">
       <!--menu-->
       <div class="bg-mint-100 w-40 px-4 space-y-4 py-4 rounded-bl-xl">
-        <li><a href="#"><i class="fa-solid fa-house-blank"></i>Home</a></li>
-        <li><a href="#">Expirience</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><button href="#" class=" p-2 px-6 rounded-xl bg-mint-100 hover:bg-red-100 hover:text-red-500 transform hover:scale-110">Home</button></li>
+        <li><button href="#" class=" p-2 px-6 rounded-xl bg-mint-100 hover:bg-red-100 hover:text-red-500 transform hover:scale-110">Expirience</button></li>
+        <li><button href="#" class=" p-2 px-6 rounded-xl bg-mint-100 hover:bg-red-100 hover:text-red-500 transform hover:scale-110">Contact</button></li>
       </div>
       <!--form-->
       <div class="space-y-6">
         <!--card1-->
-        <div class="bg-gray-100 max-w-2xl mx-auto rounded-xl h-128px overflow-hidden ring-1 ring-gray-300 my-6">
+        <div class="bg-gray-100 max-w-5xl mx-auto rounded-xl h-128px overflow-hidden shadow-lg my-6 ">
           <div class="flex">
             <div class="bg-red-500 pb-2/3">
-              <img src="me.png" class="h-full w-60 object-contain object-cover rounded-l-xl">
+              <img src="me.png" class="h-full w-60 object-contain object-cover rounded-l-xl transform hover:scale-110">
             </div>
             <div class="p-4">
               <p>phurin parsit</p>
@@ -63,13 +67,42 @@
             </div>
           </div>
         </div>
-
+        <!--card2-->
         <div>
-
+          <h3>My Skills</h3>
+          <div class="flex space-x-12 p-10 pt-3">
+            <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+              <div class="relative bg-red pb-48">
+                <img class="absolute h-full w-full object-cover" src="me.png">
+              </div>
+              <div class="p-5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam odit ut sit! Adipisci nobis aspernatur eligendi nam! Vel, magni.</p>
+              </div>
+            </div>
+            <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+              <div class="relative bg-red pb-48">
+                <img class="absolute h-full w-full object-cover" src="me.png">
+              </div>
+              <div class="p-5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam odit ut sit! Adipisci nobis aspernatur eligendi nam! Vel, magni.</p>
+              </div>
+            </div>
+            <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+              <div class="relative bg-red pb-48">
+                <img class="absolute h-full w-full object-cover " src="me.png">
+              </div>
+              <div class="p-5">
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam odit ut sit! Adipisci nobis aspernatur eligendi nam! Vel, magni.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      
       </div>
     </div>
   </div>
-  
+  <p class="text-center text-gray-500 mt-2">
+   © 2021 Phurin.com by Phurin Prasit
+  </p>
 </body>
 </html>
